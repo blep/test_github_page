@@ -1,6 +1,15 @@
 # Test GitHub Page (test-github-page)
 
-Test GitHub Page
+This projects test the build + deploy of a Quasar application via GitHub Actions to the project GitHub Page.
+
+The action commit the deployment to the `gh_pages` branch.
+
+Configuring GitHub Page in project Settings > Pages:
+- Show the URL of the project GitHub page.
+- Set source as branch gh_page
+
+
+# Quasar
 
 ## Install the dependencies
 ```bash
