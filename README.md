@@ -6,8 +6,9 @@ The action commit the deployment to the `gh_pages` branch.
 
 Configuring GitHub Page in project Settings > Pages:
 - Show the URL of the project GitHub page.
-- Set source as branch gh_page
-
+- Set source as branch gh_page 
+  - either create the branch manually 
+  - or change this settings after push a first time (causing the action to create the branch)
 
 # Quasar
 
